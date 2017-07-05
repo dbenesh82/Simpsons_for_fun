@@ -1,5 +1,9 @@
-Dan's analysis of The Simpsons
-========================================================
+---
+title: "Dan's analysis of The Simpsons"
+output: 
+  html_document: 
+    keep_md: yes
+---
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 #Load packages 
@@ -19,14 +23,14 @@ knitr::opts_chunk$set(fig.width=10, fig.height=6, echo=FALSE, warning=FALSE, mes
 
 ```{r}
 #set the working directory
-setwd("C:/Users/Dan/OneDrive/Documents/Online_Courses/Udacity_nano/DataAnalyst/project4_R")
+setwd("C:/Users/phosp/OneDrive/Documents/Online_Courses/Udacity_nano/DataAnalyst/module4_R/repo")
 #datasets include longs strings; let's make sure R interprets them as character vectors
 options(stringsAsFactors = FALSE)
 #set a default theme for plots
 theme_set(theme_bw())
 ```
 
-Let's explote a dataset on The Simpsons, the [longest-running](https://en.wikipedia.org/wiki/The_Simpsons), and in my opinion best, American TV sitcom of all time. This dataset is available on Kaggle [here](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)
+Let's explore a dataset on The Simpsons, the [longest-running](https://en.wikipedia.org/wiki/The_Simpsons), and in my opinion best, American TV sitcom of all time. This dataset is available on Kaggle [here](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)
 
 # Import Data
 The dataset is composed of 4 files. Let's import them and have a look. 
