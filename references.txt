@@ -1,0 +1,8 @@
+I got the data here:
+https://www.kaggle.com/wcukierski/the-simpsons-by-the-data
+
+This blog provided some inspiration:
+http://toddwschneider.com/posts/the-simpsons-by-the-data/
+
+The approach to capitalizing the first letter of words in a string came from this page:
+http://stackoverflow.com/questions/6364783/capitalize-the-first-letter-of-both-words-in-a-two-word-string
