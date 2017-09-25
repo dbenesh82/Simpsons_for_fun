@@ -1,8 +1,6 @@
 ---
 title: "Dan's analysis of The Simpsons"
-output: 
-  html_document: 
-    keep_md: yes
+output: github_document
 ---
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -22,8 +20,6 @@ knitr::opts_chunk$set(fig.width=10, fig.height=6, echo=FALSE, warning=FALSE, mes
 ```
 
 ```{r}
-#set the working directory
-setwd("C:/Users/phosp/OneDrive/Documents/Online_Courses/Udacity_nano/DataAnalyst/module4_R/repo")
 #datasets include longs strings; let's make sure R interprets them as character vectors
 options(stringsAsFactors = FALSE)
 #set a default theme for plots
@@ -41,16 +37,16 @@ The dataset is composed of 4 files. Let's import them and have a look.
 #so using excel I removed all commas from cells in the 'episodes' and 'script_lines' files
 
 #records every character with a unique id
-simp.characters <- read.csv(file = "simpsons_characters.csv") 
+simp.characters <- read.csv(file = "data/simpsons_characters.csv") 
 
 #contains data on each episode
-simp.episodes <- read.csv(file = "simpsons_episodes2.csv") 
+simp.episodes <- read.csv(file = "data/simpsons_episodes2.csv") 
 
 #contains data on locations in the show
-simp.location <- read.csv(file = "simpsons_locations.csv") 
+simp.location <- read.csv(file = "data/simpsons_locations.csv") 
 
 #contains the script of each episode and who is speaking
-simp.words <- read.csv(file = "simpsons_script_lines2.csv") 
+simp.words <- read.csv(file = "data/simpsons_script_lines2.csv") 
 
 #show data for the two smallest tables
 head(simp.characters)
