@@ -251,7 +251,8 @@ ggplot(filter(combined.df, normalized_name %in% rand.characters),
   geom_point() + coord_flip()
 ```
 
-Even as a fan of the show, I have no idea who most of these characters are! Except for Metallica guitarist Kirk Hammett starring as himself...![Rock on](https://media.giphy.com/media/3orifeE8TqvAsAFpHW/giphy.gif)
+Even as a fan of the show, I have no idea who most of these characters are! Except for Metallica guitarist Kirk Hammett starring as himself...
+![Rock on](https://media.giphy.com/media/3orifeE8TqvAsAFpHW/giphy.gif)
 
 Let's make a simple table of how many episodes each character appears in, and then plot the results.
 
@@ -370,7 +371,8 @@ ggplot(words_by_character[1:30,],
   scale_y_log10()
 ```
 
-There are some interesting outliers. Mr. Burns must have relatively long dialogs. Sideshow Bob, a recurrent guest star, occurs in just a few episodes, but is clearly very important in those episodes. Some characters occur in a lot of episodes, but don't have much to say. For example, Lenny, Carl, and Barney (Homer's bar buddies) have little dialog relative to the number of episodes they appear in.![Lenny and Carl](http://i.giphy.com/3o6Mb62MoNvu6ZnaDe.gif)
+There are some interesting outliers. Mr. Burns must have relatively long dialogs. Sideshow Bob, a recurrent guest star, occurs in just a few episodes, but is clearly very important in those episodes. Some characters occur in a lot of episodes, but don't have much to say. For example, Lenny, Carl, and Barney (Homer's bar buddies) have little dialog relative to the number of episodes they appear in.
+![Lenny and Carl](http://i.giphy.com/3o6Mb62MoNvu6ZnaDe.gif)
 
 # Has character makeup changed over time?
 
