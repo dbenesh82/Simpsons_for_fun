@@ -429,7 +429,7 @@ To get a better feel for this, let's take 10 random characters and plot how much
 
 ![](Simpsons_for_fun_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-25-1.png)
 
-Even as a fan of the show, I have no idea who most of these characters are! Except for Metallica guitarist Kirk Hammett starring as himself...![Rock on](https://media.giphy.com/media/3orifeE8TqvAsAFpHW/giphy.gif)
+Even as a fan of the show, I have no idea who most of these characters are! Except for Metallica guitarist Kirk Hammett starring as himself... ![Rock on](https://media.giphy.com/media/3orifeE8TqvAsAFpHW/giphy.gif)
 
 Let's make a simple table of how many episodes each character appears in, and then plot the results.
 
@@ -497,7 +497,7 @@ The most verbose non-Simpson is Mr. Burns, which is a little surprising, because
 
 This is a little hard to read, because the character names overlap each other. Homer's dominance is still obvious, as he speaks more than we would expect, given the number of episodes he appears in. We can also see that Mr. Burns must talk a lot in the episodes he appears in. We can make this easier to read by zooming in on the show's secondary characters. ![](Simpsons_for_fun_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-35-1.png)
 
-There are some interesting outliers. Mr. Burns must have relatively long dialogs. Sideshow Bob, a recurrent guest star, occurs in just a few episodes, but is clearly very important in those episodes. Some characters occur in a lot of episodes, but don't have much to say. For example, Lenny, Carl, and Barney (Homer's bar buddies) have little dialog relative to the number of episodes they appear in.![Lenny and Carl](http://i.giphy.com/3o6Mb62MoNvu6ZnaDe.gif)
+There are some interesting outliers. Mr. Burns must have relatively long dialogs. Sideshow Bob, a recurrent guest star, occurs in just a few episodes, but is clearly very important in those episodes. Some characters occur in a lot of episodes, but don't have much to say. For example, Lenny, Carl, and Barney (Homer's bar buddies) have little dialog relative to the number of episodes they appear in. ![Lenny and Carl](http://i.giphy.com/3o6Mb62MoNvu6ZnaDe.gif)
 
 Has character makeup changed over time?
 =======================================
